@@ -18,6 +18,7 @@ class Planet {
     
     init(name: String, diameter: Int, dayLength: Float, millionKMsFromSun: Float) {
         
+        
         self.name = name
         self.imageName = name.lowercaseString
         self.diameter = diameter
